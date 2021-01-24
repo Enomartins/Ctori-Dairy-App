@@ -7,7 +7,7 @@ export class Dashboard extends Component {
     render() {
         const { projects } = this.props
         return (
-            <div class="dashboard container">
+            <div className="dashboard container">
                 <div className="row">
                     <div className="col s12 m6">
                         <ProjectList projects={projects}/>
